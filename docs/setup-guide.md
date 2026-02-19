@@ -1,10 +1,10 @@
-# Setup Guide
+ Setup Guide
 
 This guide explains how to set up and run the Agentic Personal AI Assistant using n8n.
 
 ---
 
-## Prerequisites
+ Prerequisites
 
 Before starting, make sure you have:
 
@@ -19,7 +19,7 @@ Before starting, make sure you have:
 
 ---
 
-## Step 1: Install or Access n8n
+ Step 1: Install or Access n8n
 
 You can either:
 
