@@ -1,14 +1,14 @@
-# Tools and Technologies Used
+ Tools and Technologies Used
 
 This project integrates multiple APIs and automation tools to create a modular AI-powered assistant.
 
 ---
 
-## 1. n8n (Workflow Automation)
+ 1. n8n (Workflow Automation)
 
 n8n is used as the core orchestration engine.
 
-### Role in Project:
+ Role in Project:
 - Workflow automation
 - Multi-agent routing
 - Tool execution
@@ -19,7 +19,7 @@ Each agent (Main Assistant, Email Agent, Calendar Agent) is implemented as an in
 
 ---
 
-## 2. OpenAI (GPT-4.1-mini)
+ 2. OpenAI (GPT-4.1-mini)
 
 OpenAI is used for:
 
@@ -33,11 +33,11 @@ The model enables the system to interpret user instructions and decide which too
 
 ---
 
-## 3. Gmail API
+ 3. Gmail API
 
 Used inside the Email Agent workflow.
 
-### Capabilities:
+ Capabilities:
 - Send email
 - Create draft
 - Retrieve emails
@@ -46,11 +46,11 @@ Gmail OAuth2 authentication is required to securely connect to the user’s emai
 
 ---
 
-## 4. Google Sheets API
+ 4. Google Sheets API
 
 Used as a Contact Database.
 
-### Purpose:
+ Purpose:
 - Store contact names and email addresses
 - Retrieve verified email IDs before sending emails
 - Prevent incorrect or assumed email usage
@@ -59,11 +59,11 @@ This ensures safe and validated communication.
 
 ---
 
-## 5. Google Calendar API
+ 5. Google Calendar API
 
 Used inside the Calendar Agent workflow.
 
-### Capabilities:
+ Capabilities:
 - Create events
 - Add attendees to events
 - Retrieve events
@@ -73,11 +73,11 @@ If no duration is specified, the system automatically assumes a default duration
 
 ---
 
-## 6. Telegram Bot API
+ 6. Telegram Bot API
 
 Telegram acts as the user interface.
 
-### Role:
+ Role:
 - Accept text messages
 - Accept voice messages
 - Trigger workflows
@@ -87,7 +87,7 @@ Voice messages are transcribed before processing.
 
 ---
 
-## 7. Memory Buffer (Session-Based Context)
+ 7. Memory Buffer (Session-Based Context)
 
 The system uses session-based memory to:
 
@@ -99,7 +99,7 @@ Each Telegram user session is isolated to ensure clean context management.
 
 ---
 
-## 8. OAuth2 Authentication
+ 8. OAuth2 Authentication
 
 Secure authentication is implemented for:
 
@@ -111,7 +111,7 @@ This ensures secure API communication without exposing credentials.
 
 ---
 
-## Summary
+ Summary
 
 This project demonstrates real-world integration of:
 
